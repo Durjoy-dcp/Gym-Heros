@@ -11,8 +11,9 @@ function App() {
 
   }, [])
   return (
-    <div className="App">
-      <img src={m.img} className="App-logo" alt="logo" />
+    <div>
+      <h1>WOk</h1>
+
     </div>
   );
 }
