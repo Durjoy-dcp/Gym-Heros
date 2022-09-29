@@ -13,9 +13,12 @@ const BodyContainer = () => {
                         <ExcerciseContainer></ExcerciseContainer>
 
                     </div>
-                    <div className="col-12 col-md-4 info-part">
-                        <InfoPart></InfoPart>
-                        <BreakPart></BreakPart>
+                    <div className="col-12 col-md-4 info-part" >
+                        <div style={{ "position": "sticky", "top": "0" }}>
+
+                            <InfoPart></InfoPart>
+                            <BreakPart></BreakPart>
+                        </div>
                     </div>
                 </div>
             </div>
