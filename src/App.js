@@ -14,7 +14,7 @@ function App() {
 
   }, [])
   return (
-    <div>
+    <div className='body'>
       <Header></Header>
       <BodyContainer></BodyContainer>
 
