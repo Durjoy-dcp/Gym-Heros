@@ -11,7 +11,8 @@ const Excercise = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{comments}</p>
-                    <button className='btn btn-info mx-0'>Add to list</button>
+                    <p className="card-text"> Time Required : {time}s</p>
+                    <button className='btn btn-info mx-0 fw-bolder fs-6'>Add to list</button>
                 </div>
             </div>
         </div>
