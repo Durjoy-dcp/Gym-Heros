@@ -42,14 +42,14 @@ const Qestion = () => {
                     <h2 className="accordion-header" id="headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            where should use useEffect rather than load api?
+                            where should use useEffect except load api?
 
                         </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            A side-effect can be any effect(programming logic) that is responsible for changing the state of your component. If the state changes, the component re-renders.So, a side effect is something that we should isolate from the rendering. The useEffect hook helps perform side effects by isolating it from the rendering logic.
+                            A side-effect can be any effect(programming logic) that is responsible for changing the state of your component. If the state changes, the component re-renders.So, a side effect is something that we should isolate from the rendering. The useEffect hook helps perform side effects by isolating it from the rendering logic. So to update state and re-renders we use useEffect excepting load API.
                         </div>
                     </div>
                 </div>
