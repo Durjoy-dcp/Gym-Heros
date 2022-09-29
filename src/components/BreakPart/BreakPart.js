@@ -2,7 +2,7 @@ import React from 'react';
 import Time from '../Time/Time';
 import './BreakPart.css';
 
-const BreakPart = () => {
+const BreakPart = ({ time }) => {
     return (
         <div>
             <h4 className='mt-5  mb-2 px-2'>Add A Break</h4>
@@ -34,7 +34,7 @@ const BreakPart = () => {
                 </div>
 
             </div>
-            <Time></Time>
+            <Time time={time}></Time>
         </div>
     );
 };

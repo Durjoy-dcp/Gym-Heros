@@ -4,41 +4,41 @@
         "name": "Walking",
         "comments": "Walking is something you can do anywhere, anytime, with no equipment other than a good pair of shoes.",
         "img": "/images/walking.jpeg",
-        "time": "25"
+        "time": 25
     },
     {
         "id": 2,
         "name": "Bent-over Row",
         "img": "/images/bent.jpeg",
         "comments": "Talk about bang for the buck: This exercise works all the major muscles of the upper back, as well as the biceps.",
-        "time": "15"
+        "time": 15
     },
     {
         "id": 3,
         "name": "Lungs exercise",
         "img": "/images/lungs-exercise.jpeg",
         "comments": "A lunge is a great exercise because it mimics life, it mimics walking",
-        "time": "20"
+        "time": 20
     },
     {
         "id": 4,
         "name": "Interval training",
         "img": "/images/interval-training.jpeg",
         "comments": "Adding interval training to your cardiovascular workout will boost your fitness level .",
-        "time": "30"
+        "time": 30
     },
     {
         "id": 5,
         "name": "Squarts-training",
         "img": "/images/squarts-training.jpeg",
         "comments": "our experts tended to favor strength-training exercises that target multiple muscle groups. Squats, which work the quadriceps, hamstrings, and gluteals, are an excellent example.",
-        "time": "40"
+        "time": 40
     },
     {
         "id": 6,
         "name": "Push-ups",
         "img": "/images/push-ups.jpeg",
         "comments": "If done correctly, the push-up can strengthen the chest, shoulders, triceps, and even the core trunk muscles, all at one time.",
-        "time": "45"
+        "time": 45
     }
 ]
