@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Header from './components/Header/Header';
+
 
 function App() {
   const [m, setM] = useState([]);
@@ -11,8 +13,8 @@ function App() {
 
   }, [])
   return (
-    <div>
-      <h1>WOk</h1>
+    <div className='container'>
+      <Header></Header>
 
     </div>
   );
