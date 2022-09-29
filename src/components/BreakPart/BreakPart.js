@@ -10,25 +10,25 @@ const BreakPart = () => {
 
                 <div className="form-check">
                     <input className="form-check-input hid-box" type="radio" name="exampleRadios" id="exampleRadios1" value="10" />
-                    <label className="form-check-label" for="exampleRadios1">
+                    <label className="form-check-label" htmlFor="exampleRadios1">
                         10s
                     </label>
                 </div>
                 <div className="form-check">
                     <input className="form-check-input hid-box" type="radio" name="exampleRadios" id="exampleRadios2" value="20" />
-                    <label className="form-check-label" for="exampleRadios2">
+                    <label className="form-check-label" htmlFor="exampleRadios2">
                         20s
                     </label>
                 </div>
                 <div className="form-check">
                     <input className="form-check-input hid-box" type="radio" name="exampleRadios" id="exampleRadios3" value="30" />
-                    <label className="form-check-label" for="exampleRadios3">
+                    <label className="form-check-label" htmlFor="exampleRadios3">
                         30s
                     </label>
                 </div>
                 <div className="form-check">
                     <input className="form-check-input hid-box" type="radio" name="exampleRadios" id="exampleRadios4" value="40" />
-                    <label className="form-check-label" for="exampleRadios4">
+                    <label className="form-check-label" htmlFor="exampleRadios4">
                         40s
                     </label>
                 </div>

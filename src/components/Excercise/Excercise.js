@@ -3,7 +3,7 @@ import './Excercise.css';
 
 const Excercise = (props) => {
     const { img, name, comments, time } = props.exercise;
-    console.log(img, name);
+    // console.log(img, name);
     return (
         <div className='col-12 col-sm-6 col-lg-4 g-4'>
             <div className="card">
