@@ -1,4 +1,5 @@
 import React from 'react';
+import BreakPart from '../BreakPart/BreakPart';
 import ExcerciseContainer from '../ExerciseContainer/ExcerciseContainer';
 import InfoPart from '../InfoPart/InfoPart';
 import './BodyContainer.css';
@@ -14,6 +15,7 @@ const BodyContainer = () => {
                     </div>
                     <div className="col-12 col-md-4 info-part">
                         <InfoPart></InfoPart>
+                        <BreakPart></BreakPart>
                     </div>
                 </div>
             </div>

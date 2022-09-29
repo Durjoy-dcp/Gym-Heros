@@ -1,0 +1,19 @@
+.hid-box {
+    display: none;
+}
+
+input[type="radio"]+label {
+    border-radius: 50%;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+input[type="radio"]:checked+label {
+    border-radius: 50%;
+    border: 1px solid blue;
+
+    background-color: rgb(37, 95, 230);
+
+    color: rgb(255, 255, 255);
+
+}
