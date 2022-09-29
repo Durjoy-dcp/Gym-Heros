@@ -10,7 +10,7 @@ const Excercise = (props) => {
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p className="card-text">{comments}</p>
+                    <p className="card-text text-secondary">{comments}</p>
                     <p className="card-text"> Time Required : {time}s</p>
                     <button className='btn btn-info mx-0 fw-bolder fs-6'>Add to list</button>
                 </div>

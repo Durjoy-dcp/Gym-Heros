@@ -1,7 +1,7 @@
 import React from 'react';
 import ExcerciseContainer from '../ExerciseContainer/ExcerciseContainer';
 import InfoPart from '../InfoPart/InfoPart';
-
+import './BodyContainer.css';
 const BodyContainer = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ const BodyContainer = () => {
                         <ExcerciseContainer></ExcerciseContainer>
 
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 info-part">
                         <InfoPart></InfoPart>
                     </div>
                 </div>
