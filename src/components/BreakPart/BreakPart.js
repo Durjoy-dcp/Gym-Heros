@@ -1,4 +1,5 @@
 import React from 'react';
+import Time from '../Time/Time';
 import './BreakPart.css';
 
 const BreakPart = () => {
@@ -33,6 +34,7 @@ const BreakPart = () => {
                 </div>
 
             </div>
+            <Time></Time>
         </div>
     );
 };
