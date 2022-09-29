@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Header from './components/Header/Header';
+import BodyContainer from './components/BodyContainer/BodyContainer';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
 
   }, [])
   return (
-    <div className='container'>
+    <div>
       <Header></Header>
+      <BodyContainer></BodyContainer>
 
     </div>
   );

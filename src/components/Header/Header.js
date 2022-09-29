@@ -4,8 +4,8 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
-        <div className='text-info d-flex justify-content-center align-items-center ' >
-            <FontAwesomeIcon className='text-danger fs-2 mx-2' icon={faDumbbell} /><h1>Gym Heroes</h1>
+        <div className='text-info  d-flex justify-content-center align-items-center ' >
+            <FontAwesomeIcon className='text-danger fs-2 mx-2' icon={faDumbbell} /><h1 className='fw-bold'>Gym Heroes</h1>
         </div>
     );
 };
