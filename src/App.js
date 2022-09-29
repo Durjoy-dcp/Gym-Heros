@@ -5,7 +5,10 @@ import Header from './components/Header/Header';
 import BodyContainer from './components/BodyContainer/BodyContainer';
 
 
+
+
 function App() {
+
   const [m, setM] = useState([]);
   useEffect(() => {
     fetch("products.json")

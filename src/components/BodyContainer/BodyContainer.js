@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import BreakPart from '../BreakPart/BreakPart';
 import ExcerciseContainer from '../ExerciseContainer/ExcerciseContainer';
 import InfoPart from '../InfoPart/InfoPart';
+import Qestion from '../Qestion/Qestion';
 import './BodyContainer.css';
 const BodyContainer = () => {
     const [time, setTime] = useState(0);
@@ -20,6 +21,8 @@ const BodyContainer = () => {
                     <div className="col-12 col-md-8">
                         <h3>Add Today's Exercise </h3>
                         <ExcerciseContainer addtoList={AddtoList}></ExcerciseContainer>
+                        <Qestion></Qestion>
+
 
                     </div>
                     <div className="col-12 col-md-4 info-part" >
